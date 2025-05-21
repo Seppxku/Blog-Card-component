@@ -1,4 +1,4 @@
-# 🚀 A modern preview of a card component from a blog using HTML & CSS.
+# 🚀 A preview of a modern card component from a blog using HTML & CSS.
 
 ![Screenshot of my projet](/assets/images/screenshot.png)
 
