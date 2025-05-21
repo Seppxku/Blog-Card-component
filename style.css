@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Figtree', sans-serif;
+}
+
+.card-component {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 25rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border: 1px solid black;
+    box-shadow: 8px 8px 0px black;
+}
+
+.card-component img {
+    width: 93%; 
+    border-radius: 1rem;
+}
+
+.card-component h2{
+    margin: 1rem 0 1rem 0;
+    background-color: hsl(47, 88%, 63%);
+    width: 100%;
+    max-width: 5.3rem;
+    padding: 0.4rem;
+    font-size: 1rem;
+    font-weight: 800;
+    text-align: center;
+    border-radius: 0.4rem;
+}
+
+.card-component p:nth-of-type(1) {
+    margin-bottom: 1rem;
+}
+
+.card-component h1 {
+    font-weight: 800;
+}
+.card-component h1:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.card-component p:nth-of-type(2) {
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 95%;
+    font-size: 1rem;
+    color: hsl(0, 0%, 42%);
+    line-height: 1.5rem;
+}
+
+.author {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.author p {
+    padding-top: 1rem;
+    margin-left: 0.7rem;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.author img {
+    width: 10%;
+}
+
